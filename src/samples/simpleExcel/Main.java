@@ -25,9 +25,9 @@ public class Main {
 		System.out.println("* Writer *");
 		CustomerExcelWriter excelWriter = new CustomerExcelWriter();
 		List<CustomerVo> list = new ArrayList<CustomerVo>();
-		list.add(new CustomerVo("id10", "������10", "10", "email10"));
-		list.add(new CustomerVo("id20", "������20", "20", "email20"));
-		list.add(new CustomerVo("id30", "������30", "30", "email30"));
+		list.add(new CustomerVo("id10", "Sophia10", "10", "email10"));
+		list.add(new CustomerVo("id20", "Sophia20", "20", "email20"));
+		list.add(new CustomerVo("id30", "Sophia30", "30", "email30"));
 
 		System.out.println("===xls===");
 		excelWriter
