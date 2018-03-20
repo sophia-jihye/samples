@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="lib"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/poi-3.14.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-3.14.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-schemas-3.14.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
