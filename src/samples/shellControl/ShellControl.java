@@ -1,4 +1,4 @@
-package samples.liveUpdate;
+package samples.shellControl;
 
 import java.io.BufferedReader;
 import java.io.IOException;
