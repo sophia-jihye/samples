@@ -1,13 +1,19 @@
 package samples.wordFinder;
 
+import java.io.IOException;
+
+import samples.fileUtil.FileReader1;
+
 public class Main {
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 
-		String sentence = "Hello, World. Hello, Korea. Hello, Thailand. Hello, Hello, ";
+		FileReader1 fr1 = new FileReader1();
+		String sentence = fr1
+				.readFile("C:\\DevelopTools\\Eclipse\\Workspace\\PRIVATE\\samples\\testfiles\\sample.txt");
 
-		String foundWord = "Pseudo Word";
-		String startWord = "Hello, ";
-		String endWord = ".";
+		String foundWord = null;
+		String startWord = "/thumbnail/";
+		String endWord = "/";
 
 		while (sentence.length() >= startWord.length()) {
 
@@ -22,7 +28,6 @@ public class Main {
 			}
 			foundWord = sentence.substring(0, sentence.indexOf(endWord));
 			System.out.println(foundWord);
-			System.out.println(sentence);
 		}
 
 	}
