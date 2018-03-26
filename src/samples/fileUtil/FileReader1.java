@@ -15,7 +15,7 @@ public class FileReader1 {
 
 		String buffer = "";
 		while ((buffer = br.readLine()) != null) {
-			text.append(buffer);
+			text.append(buffer + "\n");
 		}
 		br.close();
 

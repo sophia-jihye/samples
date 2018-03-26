@@ -11,10 +11,10 @@ public class Main {
 		String sentence = fr1
 				.readFile("C:\\DevelopTools\\Eclipse\\Workspace\\PRIVATE\\samples\\testfiles\\sample.txt");
 
-		String foundWord = null;
 		String startWord = "/thumbnail/";
 		String endWord = "/";
 
+		String foundWord = null;
 		while (sentence.length() >= startWord.length()) {
 
 			if (!sentence.contains(startWord)) {
