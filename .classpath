@@ -7,5 +7,6 @@
 	<classpathentry kind="lib" path="lib/poi-ooxml-3.14.jar"/>
 	<classpathentry kind="lib" path="lib/poi-ooxml-schemas-3.14.jar"/>
 	<classpathentry kind="lib" path="lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/DevelopTools/jar/mail/mail-1.4.7.jar" sourcepath="C:/Users/Ji-Hye Park/.m2/repository/javax/mail/mail/1.4.7/mail-1.4.7-sources.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
