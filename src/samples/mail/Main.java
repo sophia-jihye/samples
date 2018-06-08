@@ -3,7 +3,7 @@ package samples.mail;
 public class Main {
 	public static void main(String[] args) {
 
-		// avast ≤Ù∞Ì Ω««‡«œªÔ.... §–§–§–§–§ª
+		// avast Ï£ºÏùò
 		String userId = "sophia.jihyeparkk";
 		String passwd = "111111";
 		String emailFrom = "sophia.jihyeparkk@gmail.com";
