@@ -13,8 +13,8 @@ import javax.mail.internet.MimeMessage;
 
 public class Gmail {
 
-	static String userId;
-	static String passwd;
+	public static String userId;
+	public static String passwd;
 	private String emailFrom;
 	private String emailTo;
 	private String subject;
